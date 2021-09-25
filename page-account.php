@@ -15,16 +15,17 @@
             <h1 class="col-xl-3 col-md-4 headerText"><?php the_field('text_on_header')?>
 </h1>
             <div class="btnblock">
-            <?php $linkname=get_field('knopka_na_hedere')?>
+           
+         <?php $linkname=get_field('knopka_na_hedere')?>
               <a class="btn headerbtn" href="<?php echo $linkname['url']?>"><?php echo $linkname['title']?></a>
-        
           </div>
         </div>
       </div>
     </div>
 </div>
+
 </div>
-<div class="container" style="margin-top: 5%;">
+<div class="container" style="margin-top: 3%;">
   <div class="row">
     <div class="col-md-12">
     <?php the_content()?>

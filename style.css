@@ -29,7 +29,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .menu {
     background: green;
     color: black;
-    border-radius: 20px;
+    border-radius: 21px;
 }
 .menu-item a{
     color:black; 
@@ -65,6 +65,37 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .mr-auto {
         margin-left: auto;
    }
+   .blogh1{
+    text-align: center;
+
+}
+.phoneadaptation{
+    display: none;
+}
+.blogfluid{
+    padding-right: 8%; padding-left: 8%;
+}
+.pblog{
+    text-align: center;
+}
+   .owl-carousel .owl-item img {
+    display: block;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+   .wc-forward {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 99px;
+    margin-top: 5%;
+}
+   .text-center{
+    margin-top: 5%;
+}
+   .navbarimage{
+    margin-left: 3%;
+   }
    .footerblock{
     display: flex; align-items: center; flex-direction: column; margin-top: 1%;
    }
@@ -79,19 +110,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
-.owl-theme{
-    margin-top: 10%;
-    margin-left: -1%;
-}
+
 .columna{
     margin-left: 3%;
 
 }
-.owl-theme{
-    margin-left: -8px !important;
-}
-
-
 .li1::before{
     content: "";
     position: absolute;
@@ -201,22 +224,89 @@ margin-left: 13.5%;
    }
 
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .headerText {
-        margin-top: 30%;
+        margin-top: 25%;
+   }.text-center{
+    margin-top: 5%;
+}
+
+.blogfluid{
+    display: none !important;
+}
+.pblog{
+    text-align: justify;
+}
+.blogh1{
+     text-align: center;
+
+}
+.rcl_cab_guest_message{
+    margin-left: 5%;
+}
+.bigtext{
+     text-align: center;
+}
+.wc-forward{
+    width: 100% !important;
+    background-color: #FF9D26 !important;
+    text-decoration: none !important;
+    color: white !important;
+    border-radius: 99px !important;
+    text-align: center;
+    margin-top: 5%;
+    width: 135px;
+}
+
+.woocommerce a.added_to_cart {
+    padding: inherit !important;
+}
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: unset !important;
+}
+.woocommerce-result-count {
+    float: none !important;
+}
+.woocommerce-message a{
+width: 100%;
+}
+.bigtext{
+    font-size: 56px !important;
+    word-break: break-all;
+
+}
+.navbar-collapse{
+    
+        position: absolute;
+        top: 100%;
+        background: white;
+        padding: 30px !important;
+        width: 90%;
+        z-index: 2;
+        box-shadow: 0px 0px 40px rgb(0 0 0 / 30%);
+
+}
+.abouttext{
+    margin-top: 5%;
+}
+.blogimg{
+    margin-top: 3%;
+}
+   .navbarimage{
+    margin-left: 3%;
    }
    .card-body{
-       text-align: center;
+        text-align: center;
    }
    .spantextblock h2{
-       text-align: center;
+        text-align: center;
    }
 
    .footerblock{
-    display: flex; align-items: center; flex-direction: column; margin-top: 4%;
+    display: flex; align-items: center; flex-direction: column; margin-top: 10%;
    }
    .header-bg{
-    height: 380px;
+    height: 450px;
    }
    .n2-ss-control-bullet{
     --widget-offset: -6% !important    ;
@@ -224,7 +314,7 @@ margin-left: 13.5%;
 
    .owl-theme{
     margin-top: 10%;
-    margin-left: -1%;
+
 }
    .yogacards{
     margin-top: 15%;
@@ -235,7 +325,7 @@ margin-left: 13.5%;
 
    .headerText {
     font-size: 27px;
-    margin-left: 6%;
+
 }
 .modal-window{
     z-index: 9999;
@@ -300,16 +390,15 @@ textarea {
  width: 100%;
     padding: 20px;
 }
-    .navbar-toggler {
-        margin-left: 80%;
-        margin-top: -20%;
-   }
+
     .headerbtn {
-        background-color: #00ffae;
+        background-color: #FF9D26;
+        text-decoration: none;
         color: white;
-        margin-left:11%;
-        width: 170px;
-        margin-top: 5%;
+
+        width: 200px;
+        border-radius: 99px;
+        margin-top: 2%;
    }
 .content{
     width: 100%;
@@ -333,12 +422,17 @@ background: linear-gradient(90deg, rgba(255,252,172,1) 0%, rgba(179,215,135,1) 1
     transition: all .3s;
 }
 @media screen and (max-width: 719px) {
-    .headerText {
-        margin-top: 30%;
-   }
+
    .col{
     margin-top: 5%;
    }
+   .owl-carousel .owl-item img {
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
     .btnblock {
         margin-top: 11%;
         margin-right: 41%;
@@ -405,12 +499,17 @@ footer .textspan, footer .pageli a{
 }
 @media screen and (max-width: 1024px) and (min-width: 720px) {
     .headerbtn {
-        margin-left: 41.5%;
-        background-color: #00ffae;
+        background-color: #FF9D26;
+        text-decoration: none;
         color: white;
-        width: 170px;
-        margin-top: 5%;
+        margin-left: 14%;
+        width: 200px;
+        border-radius: 99px;
+        margin-top: 2%;
    }
+   .text-center{
+    margin-top: 5%;
+}
    .yogaimage {
     width: 100%;
     height: 100%;
@@ -515,6 +614,7 @@ border: 2px solid black;
    }
     .navbar-collapse {
         margin-left: 7%;
+        white-space: nowrap;
    }
 }
 .titletext{
@@ -655,7 +755,7 @@ footer{
 .yoga-image-container{padding:0}
 
 .ifame{ 
-    background-image: url("https://admin/wordpress/wp-content/uploads/2021/08/изображение_viber_2021-07-14_09-57-28-949.jpg");
+    background-image: url("/wp-content/uploads/2021/08/изображение_viber_2021-07-14_09-57-28-949.jpg");
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -693,16 +793,12 @@ footer{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
-@media screen and (max-width: 1023px) {
-    .show{
-        margin-top: 3%;
-        margin-left: 3%;
-        padding-bottom: 5%;
-    }
+@media screen and (max-width: 1024px) {
+
 
 }
 .hrkaliray{
- text-align: center;   
+  text-align: center;   
 }
 .shadow-sm{
     border-radius: 20px;
@@ -712,7 +808,7 @@ footer{
 }
 .aboutme{
     margin-top: 5%;
-    text-align: center;
+     text-align: center;
 }
 @media screen and (max-width:1213px){
 #video-open{display: none;}
@@ -748,22 +844,19 @@ footer{
         text-decoration: none;
 
     }
+
 .ulclass{
     list-style: square;
 }
-.blogh1{
-    text-align: center;
-}
-.blogimg{
-    width: 100%;
-}
+
+
 .blogbtn{
     background-color: #FF9D26;
     text-decoration: none;
     color: white;
     width: 200px;
     border-radius: 99px;
-margin-top: 2%;
+margin-top: 1%;
 
 } 
 .button_wrapper_blog{
@@ -815,9 +908,7 @@ body:not(.home) .text {
 .woocommerce-MyAccount-content{   
     margin-top: 1.5%;
 }
-.text-center{
-    margin-top: 5%;
-}
+
 .woocommerce-form-login__submit{
     background-color: #FF9D26 !important;
     text-decoration: none !important;
@@ -831,4 +922,172 @@ body:not(.home) .text {
 }
 .show-password-input{
     margin-top: -8px;
+}
+#your-profile > div:nth-child(6){
+    text-align: inherit !important;
+}
+.blogimg{
+    width: 100%;
+}
+.FeedLayout__wrapper{
+    background-color: transparent !important;
+}
+.FeedHeader__root{
+    background-color: transparent !important;
+}
+.kalisliderimage{
+    width: 100% !important;
+}
+.owl-item{
+    
+
+}
+
+.navbar-dark .navbar-toggler-icon {
+       background-image: url("burger.svg");
+}
+.blogh{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#myoverlay{
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,.7);
+    left: 0;
+    height: 100%;
+    padding: 10px;
+    display: none;
+}
+.card-title{
+    text-align: center;
+    margin-top: 26%;
+    font-size: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+        section {
+            padding: 60px 0;
+            min-height: 100vh;
+        }
+span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog img{
+    max-width: 100%;
+}
+.blog-head {
+  margin-bottom: 70px;
+}
+
+.blog-head h6{
+  color: #f05907;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.blog-head h6:after, .blog-head h6:before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #f05907;
+  top: 50%;
+}
+
+.blog-head h6:after{
+  right: 120%;
+}
+
+.blog-head h6:before{
+  left: 120%;
+}
+
+
+.imgoverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(240, 89, 7, 0.82);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.item:hover .imgoverlay {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.top-overlay {
+    bottom: 100%;    
+    height: 0;
+}
+.item:hover .top-overlay {
+  bottom: 0;
+}
+.bottom-overlay {
+    top: 100%;
+}
+
+.item:hover .bottom-overlay {
+  top: 0;
+}
+
+.right-overlay {
+    left: 100%;
+    height: 100%;
+}
+
+.item:hover .right-overlay {
+  left : 0;
+}
+
+.left-overlay {
+    right: 100%;
+    height: 100%;
+    left:auto;
+}
+
+.item:hover .left-overlay {
+  right : 0;
+}
+.fade-overlay {
+    height: 100%;
+    opacity: 0;
+}
+
+.item:hover .fade-overlay {
+  opacity: 1;
+}
+.title-overlay {
+    height: auto;
+    top: auto;
+    opacity: 0;
+}
+.item:hover .title-overlay {
+    opacity: 1;
+    height: auto;
+    padding: 50px 0;
+}
+
+.blogbtn{
+    transform: translate(14vw, 8vh);
 }

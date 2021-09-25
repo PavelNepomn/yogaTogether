@@ -89,7 +89,7 @@
 <button id="video-open">Watch video</button>
 <div class="modal-window">
   <video width="460" height="281" loop="" controls>
-          <source src="https://admin/wordpress/wp-content/uploads/2021/08/videoplayback.mp4">
+          <source src="/wp-content/uploads/2021/08/videoplayback.mp4">
         </video>
 </div>
 <script>
@@ -97,7 +97,7 @@
     $('.modal-window').toggle("slow")
   })
 </script>
-  <div class="container video">
+<div class="container video">
     <div class="ifame">
       <iframe width="100%" height="685" src="https://www.youtube.com/embed/BHACKCNDMW8" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

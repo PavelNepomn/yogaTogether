@@ -2,7 +2,7 @@
 /**
 * Template Name: Home
 *
-* @package WordPress
+* @package Wordpress
 * @subpackage Twenty_Fourteen
 * @since Twenty Fourteen 1.0
 */
@@ -27,29 +27,29 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 ">
         <div class="rowcol">
           <div class="card shadow-sm second-card">
-            <img src="wp-content\themes\Wordpress\7.jpg" class="secondjpg owl_carimg">
+            <img src="wp-content\themes\yoga\7.jpg" class="secondjpg owl_carimg">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Долгое и тонкое дыхание делает ум спокойным. Спокойный ум основа для всего прекрасного. </p>
             
             </div>
               </div>
             </div>
      <div class="col column">
       <div class="card shadow-sm">
-        <img src="wp-content\themes\Wordpress\5.jpg" class="owl_carimg">
+        <img src="wp-content\themes\yoga\5.jpg" class="owl_carimg">
            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Долгое и тонкое дыхание делает ум спокойным. Спокойный ум основа для всего прекрасного. </p>
               
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm last-card">
-          <img src="wp-content\themes\Wordpress\1.jpg" class="owl_carimg">
+          <img src="wp-content\themes\yoga\1.jpg" class="owl_carimg">
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Долгое и тонкое дыхание делает ум спокойным. Спокойный ум основа для всего прекрасного. </p>
             </div>
           </div>
           </div>
@@ -86,7 +86,7 @@
 <div class="container-fluid itemblock">
   <div class="row">
     <div class="col-md-7 yoga-image-container">
-      <img class="yogaimage" src="https://admin/wordpress/wp-content/uploads/2021/08/изображение_viber_2021-07-14_10-07-43-534.jpg">
+      <img class="yogaimage" src="/wp-content/uploads/2021/08/изображение_viber_2021-07-14_10-07-43-534.jpg">
     </div>
     
     <div class="col-md-5 ulblock">
@@ -113,7 +113,7 @@
      <div class="container">
        <h2>Lporem Ipsum</h2>
        <button id="video-open">Смотреть видео</button>
-       <a href="https://admin/wordpress/wp-content/uploads/2021/08/alina2.mp4" target="_blank" id="video-open2">Смотреть видео</a>
+       <a href="/wp-content/uploads/2021/08/alina2.mp4" target="_blank" id="video-open2">Смотреть видео</a>
      </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
   <div class="modal-window">
     <span id="close-button">X</span>
   <video width="580" height="358" loop="" controls>
-          <source src="https://admin/wordpress/wp-content/uploads/2021/08/alina2.mp4">
+          <source src="/wp-content/uploads/2021/08/alina2.mp4">
         </video>
 </div>
 <script>

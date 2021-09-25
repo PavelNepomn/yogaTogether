@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-md-12" style="margin-top: 5%;">
           <div class="header">
-            <h1 class="col-xl-3 col-md-4 headerText">Магазин</h1>
+            <h1 class="col-xl-3 col-md-4 headerText bigtext">Магазин</h1>
          
         </div>
       </div>

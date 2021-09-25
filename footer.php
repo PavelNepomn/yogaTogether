@@ -24,24 +24,24 @@
       <ul class="ulclass">
         <li>
           <div class="pageli">
-           <a href="https://admin/wordpress/?page_id=32" class="kalibutton">Обо мне</a>
+           <a href="/?page_id=32" class="kalibutton">Обо мне</a>
             </div>
           </li>
         <li> 
          <div class="pageli">
-            <a href="https://admin/wordpress/?page_id=71" class="kalibutton">Связаться со мной</a>
+            <a href="/?page_id=71" class="kalibutton">Связаться со мной</a>
             </div>
           </li>
         
           <li>   
             <div class="pageli">
-              <a href="https://admin/wordpress/?page_id=49" class="kalibutton">Мой учитель</a>
+              <a href="/?page_id=49" class="kalibutton">Мой учитель</a>
             </div>
           </li>
   
             <li>   
               <div class="pageli">
-              <a href="http://admin/wordpress/" class="kalibutton">Главная</a>
+              <a href="/" class="kalibutton">Главная</a>
             </div>
           </li>
          
@@ -50,7 +50,7 @@
         </div>
 </ul>
         <div class="col-md-4 instblock">
-            <?php echo do_shortcode( '[instagram feed="113"]' )?>
+            <?php echo do_shortcode( '[instagram feed="429"]' )?>
         </div>
       </div>
     </div></div>

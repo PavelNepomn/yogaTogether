@@ -3,12 +3,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="header">
-            <h1 class="col-xl-3 col-md-4 headerText"><?php the_field('text_on_header')?>
+            <h1 class="col-xl-3 col-md-4 headerText bigtext"><?php the_title()?>
 </h1>
-            <div class="btnblock">
-           
-         <?php $linkname=get_field('knopka_na_hedere')?>
-              <a class="btn headerbtn" href="<?php echo $linkname['url']?>"><?php echo $linkname['title']?></a>
           </div>
         </div>
       </div>
@@ -18,8 +14,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12 mt-5">
+    <?php
+    if(function_exists('wp_recall')) wp_recall();
+?>
       <?php the_content()?>
-      <?php echo do_shortcode('[products]');?>
     </div>
   </div>
 </div>

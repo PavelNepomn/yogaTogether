@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-12" style="margin-top: 5%;">
           <div class="header">
-            <h1 class="col-xl-3 col-md-4 headerText"><?php the_field('text_on_header')?>
+            <h1 class="col-xl-3 col-md-4 headerText bigtext" ><?php the_field('text_on_header')?>
 </h1>
             <div class="btnblock">
            
