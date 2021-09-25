@@ -11,7 +11,7 @@
 </div>
 <div class="textt my-5 mx-auto text-center">
 
-<h1>404</h1>
+<h1>404</h1 > 
 <p>Не найдено</p>
 </div>
 <?php get_footer()?>
