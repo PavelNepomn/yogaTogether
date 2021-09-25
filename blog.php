@@ -86,7 +86,7 @@
  </div>
  <a class="btn blogbtn" href="http://yoga.website/product-category/разное/">Записаться на курс</a>
   </div>
-              </div>
+              </div>  
             </div>
            
             <div class="col-md-6">
