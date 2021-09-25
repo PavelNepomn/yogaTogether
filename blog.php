@@ -26,7 +26,7 @@
 </div>
 <div class="container mt-5">
     <div class="row">
-        <h2 class="blogh1">Йога поток уровнь 2</h1>
+        <h2 class="blogh1">Йога поток уровнь 2 </h1>
         <div class="col-md-4">
        <img class="blogimg" src="wp-content\themes\Wordpress\yogajpg.jpg">
         </div>
